@@ -11,7 +11,8 @@ sudo apt -y install \
     wget \
     fonts-powerline \
     neofetch \
-    htop
+    htop \
+    tree
 
 sudo apt -y autoremove
 
