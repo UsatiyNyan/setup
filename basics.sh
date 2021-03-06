@@ -19,12 +19,12 @@ sudo apt -y autoremove
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 cp document.vimrc ~/.vimrc
 
-# OH-MY-ZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-cp document.zshrc ~/.zshrc
-
 # VSCODE
 snap install code --classic
+
+# OH-MY-ZSH
+cp document.zshrc ~/.zshrc
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "
 in vim do the :PlugInstall

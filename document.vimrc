@@ -23,8 +23,6 @@ Plug 'itchyny/lightline.vim'
 " https://github.com/scrooloose/nerdtree
 Plug 'scrooloose/nerdtree'
 
-" https://github.com/ycm-core/YouCompleteMe.git
-Plug 'ycm-core/YouCompleteMe'
 call plug#end()
 
 set background=dark
@@ -38,4 +36,3 @@ set noshowmode
 autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
 
-let g:ycm_global_ycm_extra_conf = '~/.vim/plugged/YouCompleteMe/.ycm_extra_conf.py'
